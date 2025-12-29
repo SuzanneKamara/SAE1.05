@@ -1,0 +1,74 @@
+.ec{
+    display: flex;
+    flex-direction: row;
+    
+    font-family: "DM Sans";
+    
+    
+
+}
+.ec__img__container{
+    overflow: hidden;
+    display: flex;
+}
+.ec__img{
+    
+    object-fit: cover;
+
+
+}
+.ec__description__container{
+    display: flex;
+    flex-direction: column;
+    gap: 3.13rem;
+    padding-left: 8.12rem;
+
+}
+.ec__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    
+
+}
+.title{
+    color: var(--clr-drk-blue);
+    font-weight: 700;
+}
+.ec__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+
+}
+.text{
+    color: var(--clr-grey-txt);
+
+}
+.ec__desc{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+
+}
+
+.card__btn__container{
+    display: flex;
+    flex-direction: row;
+    gap: 0.62rem;
+    
+
+}
+
+.card__btn__1{
+    background-color: var(--clr-drk-blue);
+    color: var(--clr-light);
+
+}
+.card__btn__2{
+    background-color: var(--clr-light);
+    color: var(--clr-grey-txt);
+    border: 0.1rem solid var(--clr-grey-txt);
+
+}

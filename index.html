@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter Start-Up SAé1.05</title>
+    <link rel="stylesheet" href="./css/base.css" />
+  </head>
+  <body>
+    
+    <!-- maquette 1 -->
+    <section class="nav20L2__container"></section>
+    <section class="header07L1__container"></section>
+    <section class="content14L1__container"></section>
+    <section class="form07L1__container"></section>
+    <section class="testimonial06L1__container"></section>
+    <section class="cta12L1__container"></section>
+    <section class="card1__container2"></section>
+    <section class="team04L1__container"></section>
+    <section class="contactL101__container"></section>
+    <section class="pricing__container"></section>
+    <section class="footer07L1__container"></section>
+    <div class="buttons">
+      <div class="btn__container">
+        <a
+          style="
+            --_border: var(--clr-light);
+            --_bg-clr: var(--clr-drk-blue-2);
+            --_txt-clr: var(--clr-light);
+            --_border-alt: var(--clr-light);
+            --_bg-clr-alt: var(--clr-drk-blue-2-hover);
+            --_txt-clr-alt: var(--clr-light);
+          "
+          class="btn"
+          href="index2.html"
+          >accéder aux composants</a
+        >
+      </div>
+
+      <div class="btn__container">
+        <a
+          style="
+            --_border: var(--clr-light);
+            --_bg-clr: var(--clr-drk-blue-2);
+            --_txt-clr: var(--clr-light);
+            --_border-alt: var(--clr-light);
+            --_bg-clr-alt: var(--clr-drk-blue-2-hover);
+            --_txt-clr-alt: var(--clr-light);
+          "
+          class="btn"
+          href="index3.html"
+          >accéder aux composants non dynamiques</a
+        >
+      </div>
+    </div>
+
+    <script type="module">
+      // card1:
+      // card2:
+
+      // card4:
+      // contact1:
+      import { Datatemplate } from "./component/Contact/contact1/Data.js";
+
+      import { contact1 } from "./component/Contact/contact1/contact.js";
+      contact1.render(".contactL101__container", Datatemplate);
+
+      // header:
+      import { Header } from "./component/Headers/header07L2/template.js";
+      Header.render(".header07L1__container");
+      // content:
+      import { DataContent } from "./component/Content/14L1/Data.js";
+      import { Content } from "./component/Content/14L1/template.js";
+      Content.render(".content14L1__container", DataContent);
+      // testimonial:
+      import { DataTestimonial } from "./component/Testimonial/06L1/Data.js";
+      import { Testimonial } from "./component/Testimonial/06L1/template.js";
+      Testimonial.render(".testimonial06L1__container", DataTestimonial);
+
+      // form:
+      import { DataForm } from "./component/Forms/07L1/Data.js";
+      import { Form } from "./component/Forms/07L1/template.js";
+      Form.render(".form07L1__container", DataForm);
+
+      // cta:
+      import { DataCta } from "./component/CallToAction/12L1/Data.js";
+      import { Cta } from "./component/CallToAction/12L1/template.js";
+      Cta.render(".cta12L1__container", DataCta);
+
+      // pricing:
+      import { DataPricing } from "./component/PricingTable/07L1/Data.js";
+      import { Pricing } from "./component/PricingTable/07L1/template.js";
+      Pricing.render(".pricing__container", DataPricing);
+
+      // footer:
+      import { DataFooter } from "./component/Footer/07L1/data.js";
+      import { Footer } from "./component/Footer/07L1/template.js";
+      Footer.render(".footer07L1__container", DataFooter);
+
+      // team:
+      import { DataTeam } from "./component/Team/data.js";
+      import { Team } from "./component/Team/template.js";
+      Team.render(".team04L1__container", DataTeam);
+
+      // l2:
+      // nav20L2:
+      import { DataNav } from "./component/Navigation/20L2/data.js";
+      import { Nav } from "./component/Navigation/20L2/template.js";
+      Nav.render(".nav20L2__container", DataNav);
+    </script>
+  </body>
+</html>

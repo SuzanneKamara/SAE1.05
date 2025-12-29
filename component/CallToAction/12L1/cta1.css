@@ -1,0 +1,22 @@
+.cta1{
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.cta1__desc{
+    text-align: center;
+}
+.cta1__title{
+    color: var(--clr-drk-blue);
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem; /* 123.81% */
+    letter-spacing: -0.025rem;
+}
+
+.cta1__text{
+    color:var(--clr-grey-txt);
+}

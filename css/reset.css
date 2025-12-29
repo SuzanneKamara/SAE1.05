@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  /* ➩ Supprime les marges externes */
+}
+
+/* Reset liste */
+ul,
+ol {
+  
+  /* ➩ Supprime le padding */
+  padding: 0;
+  /* ➩ Supprime les puces des éléments de liste */
+  list-style: none;
+}
+
+/* link */
+a,
+a:active,
+a:visited {
+  /* ➩ Supprime le soulignement des liens */
+  text-decoration: none;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  /* ➩ l'image responsive : occupe 100% max de la taille du parent  */
+  max-width: 100%;
+  /* ➩ l'image à un rendu Block  */
+  display: flex;
+  
+}
+

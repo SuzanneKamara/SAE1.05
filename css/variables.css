@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&display=swap");
+
+:root {
+  --clr-dark: hsl(253%, 69%, 8%);
+  --clr-light: hsl(0, 0%, 100%);
+  --clr-light-hover: hsl(0, 0%, 87%);
+  --clr-drk-blue:rgb(30, 14, 98);
+  --clr-grey-txt:rgba(21, 20, 57, 0.4);
+  --ff-sans: "DM sans", sans-serif;
+  --clr-green:rgba(37, 218, 197, 1);
+  --clr-green-hover:rgb(30, 184, 166);
+  --clr-drk-blue-2:rgba(72, 43, 231, 1);
+  --clr-drk-blue-2-hover:rgb(55, 32, 183);
+  --clr-pink:rgba(233, 58, 125, 1);
+  --clr-pink-hover:rgb(183, 44, 97);
+  --clr-light-blue:rgba(29, 161, 242, 1);
+  --clr-light-blue-hover:rgb(28, 132, 197);
+  
+}

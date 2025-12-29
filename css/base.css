@@ -1,0 +1,63 @@
+@import './reset.css';
+@import './variables.css';
+/* Hero */
+@import '../component/Hero/09.L1.css';
+@import '../component/Hero/04.L1.css';
+@import '../component/Hero/16.L2.css';
+@import '../component/Hero/07L1/style.css';
+/* Navigation */
+@import '../component/Navigation/12.L2.css';
+@import '/component/Navigation/07L2/07.L2.css';
+@import '../component/Navigation/nav03L1/style.css';
+@import '../component/Navigation/20L2/style.css';
+/* Ecommerce */
+@import '../component/Ecommerce/L124/L1.24.css';
+@import '../component/Ecommerce/L130/L1.30.css';
+
+/* Button */
+@import '../component/button/button.css';
+
+/* card */
+@import '../component/card/card1/card1.css';
+@import '../component/card/card2/card2.css';
+@import '../component/card/card3/card3.css';
+@import '../component/card/card4/card4.css';
+
+/* Call To Action */
+@import '../component/CallToAction/12L1/cta1.css';
+
+/* Contact */
+@import '../component/Contact/contact1/L1.01.css';
+
+/* Showcase */
+@import '../component/Showcase/L101/L1.01.css';
+/* Content */
+@import '../component/Content/14L1/style.css';
+
+/* Testimonial */
+@import '../component/Testimonial/06L1/style.css';
+
+/* form */
+@import '../component/Forms/07L1/style.css';
+
+/* pricing */
+@import '../component/PricingTable/07L1/style.css';
+
+/* footer */
+@import '../component/Footer/07L1/style.css';
+
+/* team */
+@import '../component/Team/style.css';
+
+/* header */
+@import '../component/Headers/18L2/style.css';
+
+body{
+    
+  font-family: var(--ff-sans);
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  
+}

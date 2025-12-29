@@ -1,0 +1,41 @@
+.header16L2{
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13.44rem;
+
+    /* block style */
+    background-image: linear-gradient(rgba(46, 24, 147, 0.479),rgba(46, 24, 147, 0.493)),url("../../assets/Hero/16.L2/Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* font */
+    color: var(--clr-light);
+}
+.header16L2__desc{
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    /* font */
+    text-align: center;
+}
+.header16L2__title{
+    /* font */
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.375rem; /* 120.69% */
+    letter-spacing: -0.0625rem;
+}
+
+.header16L2__text{
+    /* font */
+    font-family: "DM Sans";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem; /* 155.556% */
+}

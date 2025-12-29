@@ -1,0 +1,41 @@
+.contactL101 {
+    /* layout */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    /* box style */
+    background-image:linear-gradient(rgba(46, 24, 147, 0.644),rgba(46, 24, 147, 0.644)),url("../../../assets/Contact/L101/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* text */
+    color: var(--clr-light);
+
+}
+
+
+
+.contactL101__maininfo {
+    margin-bottom: 20px;
+}
+
+.contactL101__maininfo h1 {
+    color:var(--clr-pink)
+}
+
+.contact__info, .contactL101__maininfo{
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact__icons {
+    /* layout */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+

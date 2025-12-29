@@ -1,0 +1,60 @@
+.hero04L1 { 
+  background-color: var(--clr-light);
+  
+  color: var(--clr-drk-blue);
+  background-color: var(--_bg-hero);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+.hero04L1__title {
+  color: var(--_txt-color,--clr-dark);
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.375rem; /* 119.444% */
+  letter-spacing: -0.0625rem;
+  
+  }
+
+.hero04L1__img{
+  
+  
+  align-self: center;
+  padding: 4rem;
+
+}
+
+
+.hero04L1__desc {
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+.hero04L1__li {
+  
+  
+  margin: 2rem auto;
+  font-family: "DM Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  color: rgba(21, 20, 57, 0.40);
+ 
+  
+  
+}
+
+
+
+
+
+
+
+

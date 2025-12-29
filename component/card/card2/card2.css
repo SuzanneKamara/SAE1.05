@@ -1,0 +1,70 @@
+.card2{
+    /* layout */
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    padding:  6.25rem, 16.69rem, 6.25rem, 16.69rem;
+    
+
+    /* box style */
+    border-radius: 0.625rem;
+    border: 2px solid var(--Colors-Grey, #EBEAED);
+    background: var(--Colors-White, #FFF);
+
+}
+
+.card2__img__container{
+    padding: 0;
+    border-radius: 0rem 0.625rem 0.625rem 0rem;
+    display: flex;
+    
+}
+.card2__img{
+    object-fit: cover;
+}
+.card2__desc__container{
+    
+
+}
+.card2__title1{
+    /* font */
+    color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.625rem; /* 185.714% */
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+
+}
+.card2__title2{
+    /* font */
+    color: var(--Colors-Heading, #1E0E62);
+    font-family: "DM Sans";
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem; /* 123.81% */
+    letter-spacing: -0.025rem;
+
+}
+.card2__price{
+    color: var(--clr-grey-txt);
+
+}
+
+.card2__desc{
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    gap: 2.44rem;
+
+    /* font */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+
+}
+
+

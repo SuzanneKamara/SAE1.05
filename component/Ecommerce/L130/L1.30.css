@@ -1,0 +1,13 @@
+.ecommerceL130 {
+    /* local variable */
+    --_clr-btn:var(--clr-btn,var(--clr-light));
+    /* layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 13.44rem, 8.25rem;
+
+    /* box style */
+    background-color: var(--clr-light);
+}
+

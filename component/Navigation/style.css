@@ -1,0 +1,23 @@
+
+.nav{
+    color: #ffffff;
+    background-color: var(--_bg-clr,var(--clr-dark));
+    font-family: var(--ff-sans);
+    display: flex;
+    height: fit-content;
+    
+}
+
+.em{
+    justify-self: start;
+    align-self: center;
+}
+
+.nav__list{
+    justify-self:flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+}

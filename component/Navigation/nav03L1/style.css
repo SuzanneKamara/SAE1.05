@@ -1,0 +1,27 @@
+.nav03L1{
+    background-color: var(--clr-drk-blue);
+    
+    color: var(--clr-light);
+    padding-top: 1rem ;
+    padding-bottom: 1rem ;
+    position: fixed;
+
+}
+.nav03L1 a{
+
+    text-decoration: none;
+    color: var(--clr-light);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.63rem;
+}
+
+.nav03L1__elt{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}

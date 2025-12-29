@@ -1,0 +1,55 @@
+.team04L1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.team04L1__title{
+    color: var(--clr-drk-blue);
+    font-size: 2.63rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem; 
+    letter-spacing: -0.03rem;
+}
+.member__container{
+    display: grid;
+    grid-template-areas: "a b c d"
+                        "e f g h";
+                        grid-gap: 1rem;
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.member__image__container{
+    display: flex;
+    border-radius: 0.63rem;
+}
+.member__img{
+    object-fit: cover;
+    align-self: center;
+}
+.member__name{
+    color: var(--clr-drk-blue);
+    text-align: center;
+
+    font-size: 1.38rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem; 
+}
+.member__desc{
+    color: var(--clr-grey-txt);
+    text-align: center;
+    font-size: 0.88rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.63rem; 
+    letter-spacing: 0.13rem;
+    text-transform: uppercase;
+}

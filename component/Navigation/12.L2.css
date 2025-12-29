@@ -1,0 +1,24 @@
+
+.nav12L2{
+    --_bg-clr:var(--_bg-clr,var(--clr-dark));
+    background-color: var(--_bg-clr);
+    font-family: var(--ff-sans);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.nav12L2__list{
+
+    display: flex;
+    flex-direction: row;
+    
+    
+    align-items: center;
+    gap: 1rem;
+}
+
+

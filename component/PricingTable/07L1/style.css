@@ -1,0 +1,66 @@
+.pricing__container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+.pricing{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.pricing__titles{
+    text-align: center;
+}
+.pricing__title{
+    color: var(--clr-drk-blue);
+    
+    font-size: 2.63rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.25rem; 
+    letter-spacing: -0.03rem;
+}
+.pricing__subtitle{
+    color: var(--clr-grey-txt);
+font-size: 1.38rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2rem; /* 145.455% */
+}
+.pricing__plan__container{
+    border-radius: 0.63rem;
+    border: 2px solid var(--clr-grey-txt);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.5rem;
+}
+.pricing__plan{
+    color: var(--clr-drk-blue);
+    text-align: center;
+    font-size: 1.38rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2rem; 
+}
+.pricing__customers{
+    font-size: 0.83rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.63rem; 
+    letter-spacing: 0.13rem;
+    text-transform: uppercase;
+}
+.pricing__desc{
+    color: var(--clr-grey-txt);
+
+    font-size: 1.13rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+}

@@ -1,0 +1,92 @@
+.hero09L1 { 
+  /*layout*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: static;
+  
+  padding-top: 3.69rem;
+  padding-bottom: 8.25rem;
+  
+  /*background*/
+  background-image: linear-gradient(rgba(46, 24, 147, 0.479), rgba(46, 24, 147, 0.493)),
+  url("../../assets/Hero/09.L1/hero-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--_bg-hero);
+  
+  /*text*/
+  color: var(--clr-light);
+}
+.hero09L1__nav__container{
+  /*layout*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: static;
+  
+  
+}
+
+.hero09L1__name{
+
+}
+.hero09L1__nav{
+  /*layout*/
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.hero09L1__button{
+  /*layout*/
+  display: flex;
+  border-radius: 6.25rem;
+  padding: 0.5rem;
+  flex-shrink: 0;
+  position: static;
+  
+  /*background*/
+  background-color: var(--clr-drk-blue-2);
+
+
+  
+}
+
+.hero09L1__desc{
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  gap: 2.38rem;
+  padding-top: 6rem;
+}
+.hero09L1__title {
+/*layout*/
+position: static;
+
+/*text*/
+color: var(--_txt-color,--clr-dark);
+font-size: 4.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 5.375rem; /* 119.444% */
+letter-spacing: -0.0625rem;
+
+}
+
+.hero09L1__text {
+  /*layout*/
+  display: flex;
+  
+  position: static;
+
+  /*text*/
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  
+}

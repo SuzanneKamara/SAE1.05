@@ -1,0 +1,36 @@
+.hero07L1__body{
+    /* variable local */
+    --_txt-clr:var(--_txt-clr,var(--clr-grey-txt));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 13.44rem;
+    padding-right: 13.44rem;
+    gap: 6.25rem;
+    margin-top: 4.2rem;
+    padding-bottom: 8.75rem;
+}
+.hero07L1__desc{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: var(--clr-grey-txt);
+}
+.hero07L1__title{
+    color: var(--_txt-clr,var(--clr-drk-blue));
+    margin-bottom: 1.6rem;
+}
+.hero07L1__text{
+    margin-bottom: 3.75rem;
+}
+.hero07L1__img__container{
+    display: flex;
+    overflow: hidden;
+
+
+}
+.hero07L1__img{
+    object-fit: cover;
+    flex-shrink: 0;
+}

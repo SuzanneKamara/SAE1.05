@@ -1,0 +1,29 @@
+.nav07L2{
+  --_btn-color: var(--clr-drk-blue);
+    /*layout*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    gap: 2rem;
+    position: static;
+    width: 100%;
+
+    
+ }
+ .nav07L2__current{
+   color: var(--txt-clr-grey);
+ }
+ 
+ 
+ .nav07L2__elt{
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+   align-items: center;
+   
+ }
+
+ .nav07L2__list{
+  color: var(--_btn-color);
+ }

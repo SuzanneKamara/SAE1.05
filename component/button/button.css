@@ -1,0 +1,35 @@
+.btn{
+    /* local variable */
+    --_border:var(--_border);
+      --_bg-clr:var(--_bg-clr);
+      --_txt-clr:var(--_btn-clr);
+
+    /* hover  local variable*/
+    --_border-alt:var(--_border);
+      --_bg-clr-alt:var(--_bg-clr);
+      --_txt-clr-alt:var(--_btn-clr);
+
+     /*layout*/
+  padding: 0.5rem;
+  display:flex;
+  flex-shrink: 0;
+
+  /*box style*/
+  border: 0.1rem solid var(--_border);
+  border-radius: 6.25rem;
+  background-color: var(--_bg-clr);
+  
+  /*text*/
+  color: var(--_txt-clr);
+}
+.btn__container{
+   /* layout */
+   display: flex;
+   flex-direction: row;
+   gap: 2.25rem;
+}
+.btn:hover{
+  background-color: var(--_bg-clr-alt,rgb(255, 255, 255));
+  color: var(--_txt-clr-alt,);
+  border: 0.1rem solid var(--_border-alt);
+}

@@ -1,0 +1,23 @@
+.footer07L1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--clr-drk-blue);
+    color:var(--clr-light);
+    gap: 3rem;
+    padding: 2rem 0rem 2rem 0rem;
+
+
+}
+.foote07L1__lists{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.footer07L1__credits{
+    align-self: center;
+
+}
+.foote07L1__lists li:hover{
+    color: var(--clr-light-hover);
+}
